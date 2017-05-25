@@ -1,0 +1,8 @@
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\bin\Debug\Steganography_FIEK.exe
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\bin\Debug\Steganography_FIEK.pdb
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.csprojResolveAssemblyReference.cache
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.Form1.resources
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.Properties.Resources.resources
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.csproj.GenerateResource.Cache
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.exe
+D:\FIEK - Master\Tema e Diplomës\Steganography_FIEK\Steganography_FIEK\obj\Debug\Steganography_FIEK.pdb
