@@ -56,6 +56,7 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.cbSteganoanalysis = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -64,6 +65,7 @@
             this.tabSteganoanalysis.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -212,7 +214,7 @@
             this.btnHide.Name = "btnHide";
             this.btnHide.Size = new System.Drawing.Size(93, 36);
             this.btnHide.TabIndex = 6;
-            this.btnHide.Text = "Hide";
+            this.btnHide.Text = "Hide...";
             this.btnHide.UseVisualStyleBackColor = true;
             this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
@@ -298,11 +300,11 @@
             // btnAnalyze
             // 
             this.btnAnalyze.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnalyze.Location = new System.Drawing.Point(109, 380);
+            this.btnAnalyze.Location = new System.Drawing.Point(30, 380);
             this.btnAnalyze.Name = "btnAnalyze";
-            this.btnAnalyze.Size = new System.Drawing.Size(93, 36);
+            this.btnAnalyze.Size = new System.Drawing.Size(172, 36);
             this.btnAnalyze.TabIndex = 11;
-            this.btnAnalyze.Text = "Analyze";
+            this.btnAnalyze.Text = "Analyze and Extract...";
             this.btnAnalyze.UseVisualStyleBackColor = true;
             this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
@@ -347,13 +349,26 @@
             this.label2.Text = "Steganoanalysis Method:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Steganography_FIEK.Properties.Resources.info3;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(417, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = global::Steganography_FIEK.Properties.Resources.pi_006281;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(454, 481);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -372,6 +387,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -405,6 +421,7 @@
         private System.Windows.Forms.Label lblCarrierProp2;
         private System.Windows.Forms.Label lblSecretProp2;
         private System.Windows.Forms.Label lblSecretProp1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

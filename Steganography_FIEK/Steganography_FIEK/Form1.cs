@@ -227,5 +227,15 @@ namespace Steganography_FIEK
             }
             return thelast.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("a");
+        }
+        
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("SteganoFIEK  v1.0 \nCopyright © 2017  Petrit Rama - FIEK", "Information - SteganoFIEK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
